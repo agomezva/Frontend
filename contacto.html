@@ -12,25 +12,25 @@
 </head>
 <body>
     <!-- header y nav -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg">
         <div class="container-fluid ">
           <a class="navbar-brand" href="#"><img src="img/logo.png" class="img_logo" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
             <ul class="navbar-nav fs-2">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link active whiteletters" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="portafolio.html">Portafolio</a>
+                <a class="nav-link whiteletters" href="portafolio.html">Portafolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="servicios.html">Servicios</a>
+                <a class="nav-link whiteletters" href="servicios.html">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
+                <a class="nav-link whiteletters" href="contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
@@ -52,6 +52,7 @@
                         <label for="exampleInputEmail1" class="form-label">Apellido</label>
                         <input type="text" class="form-control" name="Apellido" id="apellido" aria-describedby="emailHelp">
                     </div>
+                
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-around">
                     <div class=" me-4 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
@@ -63,7 +64,10 @@
                         <input type="tel" class="form-control" name="Telefono" id="telefono" aria-describedby="emailHelp">
                     </div>
                 </div>
-                
+                <div class="col-12">
+                    <label for="exampleInputEmail1" class="form-label">Cedula</label>
+                    <input type="tel" class="form-control" name="Cedula" id="cedula" aria-describedby="emailHelp">
+                </div>
                 <div class="col-12">
                     <label for="exampleInputEmail1" class="form-label">Fecha</label>
                     <input type="date" class="form-control" name="Fecha" id="fecha" aria-describedby="emailHelp">
@@ -72,13 +76,10 @@
                     <label for="exampleInputEmail1" class="form-label">Hora</label>
                     <input type="time" class="form-control" name="hora" id="hora" aria-describedby="emailHelp">
                 </div>
-                <div class="col-12">
-                    <label for="exampleInputEmail1" class="form-label">Cedula</label>
-                    <input type="tel" class="form-control" name="Cedula" id="cedula" aria-describedby="emailHelp">
-                </div>
+                
                 <div class="col-12 mt-5">
-                    <label for="comentario" >Cuentanos un poco de ti y tú proyecto</label>
-                    <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
+                    <label for="comentario ml-5" >Cuentanos un poco de ti y tú proyecto </label>
+                    <textarea name="comentario" id="comentario" cols="75" rows="5"></textarea>
                 </div>
                 <div class="text-center mt-5">
                     <input type="submit" class="btn btnSubmit btn-primary" value="enviar">
@@ -94,15 +95,15 @@
 
 
      <!-- footer -->
-    <div class="footer container-fluit d-flex justify-content-around align-items-center text-white bg-dark fs-2">
+    <div class="footer container-fluit d-flex justify-content-around align-items-center text-white bg fs-2">
             <img src="img/logo.png" alt="">
             <div>
-                <p>.</p>
+                <p> </p>
             </div>
             <div class="iconos">
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-whatsapp"></i>
-                <i class="bi bi-facebook"></i>
+                <a href="https://www.instagram.com/masquearquitectura.dwg/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" class="whiteletters"><i class="bi bi-instagram"></i></a>
+                <a href="https://wa.me/message/5LZTEX6DQJB6L1" class="whiteletters"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.facebook.com/masquearquitectura.skp" class="whiteletters"><i class="bi bi-facebook"></i></a>
             </div>
     </div>
 
